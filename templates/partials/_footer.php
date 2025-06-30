@@ -1,56 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Doux Délices - Commerce de Bonbons</title>
-</head>
-<body>
-    <!-- Bonbons flottants -->
-    <div class="floating-candy" style="top: 10%; left: 10%;">🍭</div>
-    <div class="floating-candy" style="top: 20%; right: 15%;">🍬</div>
-    <div class="floating-candy" style="bottom: 30%; left: 20%;">🧁</div>
-    <div class="floating-candy" style="bottom: 20%; right: 10%;">🍩</div>
-
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="./index.html" onclick="showPage('home')" class="nav-link active">🏠 Accueil</a></li>
-            <li><a href="./produit.html" onclick="showPage('products')" class="nav-link">🍭 Nos Bonbons</a></li>
-            <li><a href="./contact.html" onclick="showPage('contact')" class="nav-link">📞 Contact</a></li>
-        </ul>
-    </nav>
-
-    <div class="container">
-        <!-- Page d'accueil -->
-        <div id="home" class="page active">
-            <div class="hero">
-                <h1>🍭 Doux Délices 🍭</h1>
-                <p>Bienvenue dans le paradis des bonbons ! Découvrez notre sélection de douceurs artisanales</p>
-                <button class="hero-button" onclick="showPage('products')">Découvrir nos bonbons</button>
-            </div>
-            
-            <div class="products-grid">
-                <div class="product-card">
-                    <span class="product-emoji">🍭</span>
-                    <h3>Sucettes Artisanales</h3>
-                    <p>Des sucettes colorées fabriquées avec amour, disponibles en 12 parfums naturels différents.</p>
-                </div>
-                <div class="product-card">
-                    <span class="product-emoji">🍬</span>
-                    <h3>Bonbons Gélifiés</h3>
-                    <p>Nos fameux oursons et autres formes amusantes, sans colorants artificiels.</p>
-                </div>
-                <div class="product-card">
-                    <span class="product-emoji">🧁</span>
-                    <h3>Cupcakes sucrés</h3>
-                    <p>Petits gâteaux moelleux garnis de notre glaçage signature aux bonbons.</p>
-                </div>
-            </div>
-        </div>  
-        <!-- Footer -->
-    <footer>
+<footer>
         <div class="footer-content">
             <div class="footer-section">
                 <h3>🍭 Doux Délices</h3>
@@ -98,6 +46,3 @@
             <p>&copy; 2025 Doux Délices <span class="footer-emoji">🍭</span> Tous droits réservés <span class="footer-emoji">🍬</span> Fait avec amour à Paris</p>
         </div>
     </footer>   
-<script src="./script.js"></script>
-</body>
-</html>
